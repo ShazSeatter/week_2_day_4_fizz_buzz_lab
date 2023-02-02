@@ -31,7 +31,6 @@ class TestFizzBuzz(unittest.TestCase):
             self.assertEqual("fizz", fizz_buzz_game(3))
             self.assertEqual("buzz", fizz_buzz_game(5))
             self.assertEqual("11", fizz_buzz_game(11))
-            
 
 
 
