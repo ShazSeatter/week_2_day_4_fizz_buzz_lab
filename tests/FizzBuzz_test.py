@@ -7,16 +7,16 @@ class TestFizzBuzz(unittest.TestCase):
         def test_has_input(self):
             self.assertEqual(6, fizz_buzz(6))
 
-        def test_compare_num1__divides_3(self):
+        def test_num1__divide_by_3(self):
             self.assertEqual("fizz", divide_3(6))
 
-        def test_compare_num1__does_not_divides_3(self):
+        def test_num1__does_not_divide_by_3(self):
             self.assertEqual("7 is not divisibile by 3", divide_3(7))
 
-        def test_compare_num1__divides_5(self):
+        def test_num1__divides_5(self):
             self.assertEqual("buzz", divide_5(10))
 
-        def test_compare_num1__does_not_divides_5(self):
+        def test_num1__does_not_divides_5(self):
             self.assertEqual("7 is not divisible by 5", divide_5(7))
 
         def test_divides_by_3_and_5(self):
